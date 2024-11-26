@@ -4,7 +4,7 @@ body {
     background-color: #F6F8F9;
     font-family: "roboto", sans-serif;
     color: #454952;
-    line-height: 200%;
+    line-height: 160%;
 
 }
 
@@ -12,7 +12,8 @@ header {
     background-color: white;
     color: black;
     padding: 10px 0 10px 40px;
-    font: normal 900 35px/160% "roboto", sans serif;
+    /* font-size: xx-large; */
+    font: normal 900 50px/160% "roboto";
     /* If font is specified as a shorthand for several font-related properties, then:
             it must include values for:
             <font-size>
@@ -36,10 +37,12 @@ header {
 }
 
 section {
-    padding-left: 50px;
+    padding-left: 100px;
+    padding-bottom: 20px;
     margin: 10px;
-    border-bottom: 1px solid #F6F8F9;
+    height: max-content;
 }
+
 
 .btn {
     max-width: fit-content;
@@ -48,7 +51,7 @@ section {
     border: 1px solid #F2F3F4;
     border-radius: 12px;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     font-family: "roboto", sans-serif;
 }
 
@@ -56,32 +59,37 @@ section {
     border-radius: 10%;
 }
 
+.buttonrow {
+    padding-top: 20px;
+
+}
+
 hr {
-    border-color: #F6F8F9;
+    border: 3px solid #F6F8F9;
+
 }
 
 .title {
-    color: #454952;
     font: normal 900 20px/160% "roboto", sans serif;
 
 }
 
-.check {
-    color: #66C1AA;
+.icon-box {
     width: 20px;
     height: 20px;
-    border-color: #66C1AA;
     border-radius: 50%;
     margin-right: 10px;
+    border: 2px solid;
+}
+
+.check {
+    color: #66C1AA;
+    border-color: #66C1AA;
 }
 
 .uncheck {
     color: rgb(128, 0, 0);
-    width: 20px;
-    height: 20px;
     border-color: rgb(128, 0, 0);
-    border-radius: 50%;
-    margin-right: 10px;
 }
 
 /* button colors */
@@ -117,7 +125,7 @@ hr {
 .container {
     background-color: white;
     border-radius: 1%;
-    width: 70%;
-    margin: 8vh auto 1vh;
+    width: 60%;
+    margin: 0 auto;
 
 }
