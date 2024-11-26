@@ -4,11 +4,13 @@ body {
     background-color: #F6F8F9;
     font-family: "roboto", sans-serif;
     color: #454952;
+    line-height: 200%;
 
 }
 
 header {
     background-color: white;
+    color: black;
     padding: 10px 0 10px 40px;
     font: normal 900 35px/160% "roboto", sans serif;
     /* If font is specified as a shorthand for several font-related properties, then:
@@ -41,11 +43,12 @@ section {
 
 .btn {
     max-width: fit-content;
-    padding: 10px;
+    height: 25px;
+    padding: 5px;
     border: 1px solid #F2F3F4;
-    border-radius: 40%;
+    border-radius: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 8px;
     font-family: "roboto", sans-serif;
 }
 
@@ -81,9 +84,6 @@ hr {
     margin-right: 10px;
 }
 
-
-
-
 /* button colors */
 .blue {
     background-color: #45ABEA;
@@ -116,7 +116,7 @@ hr {
 
 .container {
     background-color: white;
-    border-radius: 10%;
+    border-radius: 1%;
     width: 70%;
     margin: 8vh auto 1vh;
 
