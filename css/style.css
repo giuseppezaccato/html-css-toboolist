@@ -2,6 +2,7 @@
 
 body {
     background-color: #F6F8F9;
+
 }
 
 header {
@@ -33,15 +34,43 @@ header {
     vertical-align: middle;
 }
 
+section {
+    padding-left: 50px;
+    margin: 10px
+}
+
+.btn {
+    max-width: max-content;
+    padding: 1%;
+    border: 1px solid #F2F3F4;
+    border-radius: 20%;
+    font-weight: 600;
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+
+.task {
+    border-radius: 11%;
+}
 
 hr {
     border-color: #F6F8F9;
 }
 
+
+.blue {
+    background-color: #45ABEA;
+}
+
+.grey {
+    background-color: white;
+    color: #CBD0D5;
+}
+
 .container {
     background-color: white;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 70%;
-    /* margin: 10vh auto 1vh; */
+    margin: 8vh auto 1vh;
 
 }
