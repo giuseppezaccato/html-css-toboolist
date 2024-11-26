@@ -38,8 +38,9 @@ header {
 }
 
 section {
-    padding-left: 100px;
-    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    padding-top: 20px;
     margin: 10px;
     height: max-content;
 }
@@ -59,13 +60,10 @@ section {
 
 .task {
     border-radius: 10%;
-    font-size: 10px;
-}
-
-.buttonrow {
-    padding-top: 30px;
+    height: 40px;
 
 }
+
 
 hr {
     border: 3px solid #F6F8F9;
@@ -75,6 +73,10 @@ hr {
 .title {
     font: normal 900 20px/160% "roboto", sans serif;
 
+}
+
+section div {
+    margin: 10px 0;
 }
 
 .icon-box {
@@ -130,6 +132,6 @@ hr {
     border-radius: 1%;
     width: 60%;
     margin: 0 auto;
-    height: 70vh;
+    height: 75vh;
 
 }
