@@ -2,6 +2,8 @@
 
 body {
     background-color: #F6F8F9;
+    font-family: "roboto", sans-serif;
+    color: #454952;
 
 }
 
@@ -38,17 +40,17 @@ section {
 }
 
 .btn {
-    max-width: max-content;
-    padding: 1%;
+    max-width: fit-content;
+    padding: 10px;
     border: 1px solid #F2F3F4;
-    border-radius: 20%;
+    border-radius: 40%;
     color: white;
-    font-weight: 600;
+    font-size: 12px;
     font-family: "roboto", sans-serif;
 }
 
 .task {
-    border-radius: 11%;
+    border-radius: 10%;
 }
 
 hr {
@@ -61,7 +63,28 @@ hr {
 
 }
 
+.check {
+    color: #66C1AA;
+    width: 20px;
+    height: 20px;
+    border-color: #66C1AA;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
+.uncheck {
+    color: rgb(128, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-color: rgb(128, 0, 0);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+/* button colors */
 .blue {
     background-color: #45ABEA;
 }
@@ -87,9 +110,9 @@ hr {
     background-color: #D862A0;
 }
 
-
-
-
+.senape {
+    background-color: #B0C926;
+}
 
 .container {
     background-color: white;
