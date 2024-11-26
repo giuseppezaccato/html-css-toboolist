@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 body {
     background-color: #F6F8F9;
@@ -25,9 +25,6 @@ header {
             line-height must immediately follow font-size, preceded by "/", like this: 16px/3.
             font-family must be the last value specified. */
 
-
-
-
 }
 
 .v-align {
@@ -36,7 +33,8 @@ header {
 
 section {
     padding-left: 50px;
-    margin: 10px
+    margin: 10px;
+    border-bottom: 1px solid #F6F8F9;
 }
 
 .btn {
@@ -44,8 +42,8 @@ section {
     padding: 1%;
     border: 1px solid #F2F3F4;
     border-radius: 20%;
-    font-weight: 600;
     color: white;
+    font-weight: 600;
     font-family: "roboto", sans-serif;
 }
 
@@ -57,6 +55,12 @@ hr {
     border-color: #F6F8F9;
 }
 
+.title {
+    color: #454952;
+    font: normal 900 20px/160% "roboto", sans serif;
+
+}
+
 
 .blue {
     background-color: #45ABEA;
@@ -66,6 +70,26 @@ hr {
     background-color: white;
     color: #CBD0D5;
 }
+
+.purple {
+    background-color: #9C72E4;
+}
+
+.green {
+    background-color: #64C0A9;
+}
+
+.orange {
+    background-color: #F29E33;
+}
+
+.pink {
+    background-color: #D862A0;
+}
+
+
+
+
 
 .container {
     background-color: white;
