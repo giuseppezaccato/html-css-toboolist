@@ -6,18 +6,39 @@ body {
 
 header {
     background-color: white;
-    padding-left: 2%;
-    /* font-family: "roboto", sans-serif;
-    font-size: 40px;
-    font: 800; */
-    font: normal bolder 35px/160% "roboto";
+    padding: 10px 0 10px 40px;
+    font: normal 900 35px/160% "roboto", sans serif;
+    /* If font is specified as a shorthand for several font-related properties, then:
+            it must include values for:
+            <font-size>
+            <font-family>
+            it may optionally include values for:
+            <font-style>
+            <font-variant>
+            <font-weight>
+            <font-stretch>
+            <line-height>
+            font-style, font-variant and font-weight must precede font-size.
+            font-variant may only specify the values defined in CSS 2.1, that is normal and small-caps.
+            font-stretch may only be a single keyword value.
+            line-height must immediately follow font-size, preceded by "/", like this: 16px/3.
+            font-family must be the last value specified. */
+
+
+
+
 }
 
 .v-align {
     vertical-align: middle;
 }
 
+hr {
+    border-color: #F6F8F9;
+}
+
 .container {
     background-color: white;
     border-radius: 50%;
+
 }
