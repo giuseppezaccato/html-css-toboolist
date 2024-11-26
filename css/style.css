@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #F6F8F9;
+}
+
+header {
+    background-color: white;
+    padding-left: 2%;
+    /* font-family: "roboto", sans-serif;
+    font-size: 40px;
+    font: 800; */
+    font: normal bolder 35px/160% "roboto";
+}
+
+.v-align {
+    vertical-align: middle;
+}
+
+.container {
+    background-color: white;
+    border-radius: 50%;
+}
