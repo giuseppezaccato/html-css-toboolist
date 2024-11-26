@@ -12,6 +12,7 @@ header {
     background-color: white;
     color: black;
     padding: 10px 0 10px 40px;
+    margin-bottom: 100px;
     /* font-size: xx-large; */
     font: normal 900 50px/160% "roboto";
     /* If font is specified as a shorthand for several font-related properties, then:
@@ -55,12 +56,14 @@ section {
     font-family: "roboto", sans-serif;
 }
 
+
 .task {
     border-radius: 10%;
+    font-size: 10px;
 }
 
 .buttonrow {
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 
@@ -127,5 +130,6 @@ hr {
     border-radius: 1%;
     width: 60%;
     margin: 0 auto;
+    height: 70vh;
 
 }
