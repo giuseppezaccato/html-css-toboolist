@@ -33,6 +33,7 @@ header {
     vertical-align: middle;
 }
 
+
 hr {
     border-color: #F6F8F9;
 }
@@ -40,5 +41,7 @@ hr {
 .container {
     background-color: white;
     border-radius: 50%;
+    width: 70%;
+    /* margin: 10vh auto 1vh; */
 
 }
