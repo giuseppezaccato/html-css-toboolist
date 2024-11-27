@@ -49,10 +49,10 @@ section {
 
 .btn {
     max-width: fit-content;
-    height: 25px;
-    padding: 5px;
+    /* height: 25px; ERRORE */
+    padding: 10px;
     border: 1px solid #F2F3F4;
-    border-radius: 12px;
+    border-radius: 20px;
     color: white;
     font-size: 10px;
     font-family: "roboto", sans-serif;
@@ -61,7 +61,9 @@ section {
 
 .task {
     border-radius: 10%;
-    height: 40px;
+    /* height: 40px; ERRORE */
+    padding: 5px;
+    margin-right: 3px;
 }
 
 
