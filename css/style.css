@@ -76,12 +76,12 @@ hr {
 }
 
 section div {
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .icon-box {
     width: 20px;
-    height: 20px;
+    /* aspect-ratio: 1; */
     border-radius: 50%;
     margin-right: 10px;
     border: 2px solid;
